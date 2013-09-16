@@ -6,17 +6,21 @@ body {
 
 section > article {
   padding: 5px 5px 5px 10px;
+
 }
 
 
 h1 {
-  font-size: 25px;
+  font-size: 40px;
   color: black;
+  font-weight: normal;
+  margin-bottom: 7px;
 }
 
 h6 {
   font-weight: bold;
   color: #595856;
+  margin-top: 0px;
 }
 
 p {
@@ -37,6 +41,13 @@ footer {
 div > img {
   display: block;
   margin: 0 0 20px 0;
+}
+
+section > img {
+  width: 420px;
+  float: left;
+  border: 1px solid #c4c0bf;
+  margin: 27px 30px 50px 10px;
 }
 
 body > div > section:nth-of-type(1) {
