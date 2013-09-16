@@ -4,6 +4,11 @@ body {
   font-family:"Arial Black", Gadget, sans-serif;
 }
 
+section > article {
+  padding: 5px 5px 5px 10px;
+}
+
+
 h1 {
   font-size: 25px;
   color: black;
@@ -32,4 +37,8 @@ footer {
 div > img {
   display: block;
   margin: 0 0 20px 0;
+}
+
+body > div > section:nth-of-type(1) {
+  border: 1px solid white;
 }
