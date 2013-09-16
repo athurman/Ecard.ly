@@ -6,7 +6,7 @@ body {
 
 section > article {
   padding: 5px 5px 5px 10px;
-  width: 480px;
+  width: 490px;
   float: left;
 
 }
@@ -26,6 +26,7 @@ h6 {
 
 p {
   color: #7f7d78;
+  font-size: 15px;
 }
 
 body > div {
@@ -48,7 +49,7 @@ section > img {
   width: 420px;
   float: left;
   border: 1px solid #c4c0bf;
-  margin: 27px 30px 35px 10px;
+  margin: 27px 30px 35px 0px;
 }
 
 body > div > section:nth-of-type(1) {
