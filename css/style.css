@@ -4,6 +4,17 @@ body {
   font-family:"Arial Black", Gadget, sans-serif;
 }
 
+#content_left {
+width: 660px;
+float: left;
+}
+
+#content_right {
+  width: 300px;
+  background-color: #a9a9a9;
+  float: left;
+}
+
 section > article {
   padding: 5px 5px 5px 10px;
   width: 490px;
