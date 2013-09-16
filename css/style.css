@@ -7,12 +7,9 @@ body {
 #content_left {
 width: 660px;
 float: left;
-background-image: -webkit-gradient(linear, 0 100%, 0 0, color-stop(0.37, #ffffff), to(#ececec));
-background-image: -webkit-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-background-image: -moz-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-background-image: -o-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+background: #fff url('../img/background-inner.jpg') repeat-x;
 }
+
 #content_left > article {
   border-bottom: 1px solid #c4c0bf;
   width: 90%;
@@ -33,7 +30,7 @@ background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
   width: 300px;
   background-color: #a9a9a9;
   float: left;
-  height: 786px;
+  height: 714px;
 }
 
 section > article {
@@ -101,12 +98,7 @@ section > img {
 body > div > section:nth-of-type(1) {
   border: 1px solid white;
   margin-top: 15px;
-  background-image: #f6f6f6;
-  background-image: -webkit-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-  background-image: -moz-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-  background-image: -o-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-  background-image: -ms-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
-  background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background: #fff url('../img/background-inner.jpg') repeat-x;
   }
 
   footer > p {
