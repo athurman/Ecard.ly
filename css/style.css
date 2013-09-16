@@ -39,6 +39,7 @@ body > div {
 footer {
   background-color: black;
   text-align: left;
+  height: 75px;
 }
 
 div > img {
@@ -62,6 +63,12 @@ body > div > section:nth-of-type(1) {
   background-image: -o-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
   background-image: -ms-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
   background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  }
+
+  footer > p {
+    padding-top: 25px;
+    padding-right: 15px;
+    text-align: right;
   }
 
 .clear {
