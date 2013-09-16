@@ -55,7 +55,13 @@ section > img {
 body > div > section:nth-of-type(1) {
   border: 1px solid white;
   margin-top: 15px;
-}
+  background-image: #f6f6f6;
+  background-image: -webkit-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: -moz-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: -o-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: -ms-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  }
 
 .clear {
   clear: both;
