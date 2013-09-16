@@ -11,7 +11,6 @@ section > article {
 
 }
 
-
 h1 {
   font-size: 40px;
   color: black;
@@ -42,18 +41,19 @@ footer {
 
 div > img {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0 0 75px 0;
 }
 
 section > img {
   width: 420px;
   float: left;
   border: 1px solid #c4c0bf;
-  margin: 27px 30px 50px 10px;
+  margin: 27px 30px 35px 10px;
 }
 
 body > div > section:nth-of-type(1) {
   border: 1px solid white;
+  margin-top: 15px;
 }
 
 .clear {
