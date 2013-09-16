@@ -6,6 +6,8 @@ body {
 
 section > article {
   padding: 5px 5px 5px 10px;
+  width: 480px;
+  float: left;
 
 }
 
@@ -52,4 +54,8 @@ section > img {
 
 body > div > section:nth-of-type(1) {
   border: 1px solid white;
+}
+
+.clear {
+  clear: both;
 }
