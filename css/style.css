@@ -1,7 +1,7 @@
 body {
   background:#c4c0bf url('../img/background_light.jpg') no-repeat;
   background-size: 100%;
-  font-family:"Arial Black", Gadget, sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 section > article {
@@ -12,10 +12,16 @@ section > article {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   color: black;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 7px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #3c3c3c;
+  font-weight: normal;
 }
 
 h6 {
@@ -69,6 +75,10 @@ body > div > section:nth-of-type(1) {
     padding-top: 25px;
     padding-right: 15px;
     text-align: right;
+  }
+
+  section > ul > li {
+    list-style: none;
   }
 
 .clear {
