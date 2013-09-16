@@ -1,6 +1,21 @@
 body {
   background:#c4c0bf url('../img/background_light.jpg') no-repeat;
   background-size: 100%;
+  font-family:"Arial Black", Gadget, sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  color: black;
+}
+
+h6 {
+  font-weight: bold;
+  color: #595856;
+}
+
+p {
+  color: #7f7d78;
 }
 
 body > div {
@@ -16,5 +31,5 @@ footer {
 
 div > img {
   display: block;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
