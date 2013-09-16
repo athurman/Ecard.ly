@@ -6,7 +6,7 @@ body {
 
 section > article {
   padding: 5px 5px 5px 10px;
-  width: 480px;
+  width: 490px;
   float: left;
 
 }
@@ -48,13 +48,19 @@ section > img {
   width: 420px;
   float: left;
   border: 1px solid #c4c0bf;
-  margin: 27px 30px 35px 10px;
+  margin: 27px 30px 35px 0px;
 }
 
 body > div > section:nth-of-type(1) {
   border: 1px solid white;
   margin-top: 15px;
-}
+  background-image: #f6f6f6;
+  background-image: -webkit-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: -moz-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: -o-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: -ms-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+  }
 
 .clear {
   clear: both;
