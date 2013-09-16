@@ -1,7 +1,6 @@
 body {
   background:#c4c0bf url('../img/background_light.jpg') no-repeat;
   background-size: 100%;
-  font-family: Tahoma, Geneva, sans-serif;
 }
 
 #content_left {
@@ -36,7 +35,7 @@ section > article {
 h1 {
   font-size: 35px;
   color: black;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 7px;
 }
 
