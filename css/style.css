@@ -7,6 +7,17 @@ body {
 #content_left {
 width: 660px;
 float: left;
+background-image: -webkit-gradient(linear, 0 100%, 0 0, color-stop(0.37, #ffffff), to(#ececec));
+background-image: -webkit-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+background-image: -moz-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+background-image: -o-linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+background-image: linear-gradient(bottom, #ffffff 37%, #ececec 100%);
+}
+#content_left > article {
+  border-bottom: 1px solid #c4c0bf;
+  width: 90%;
+  margin-left: 15px;
+
 }
 
 #content_right {
